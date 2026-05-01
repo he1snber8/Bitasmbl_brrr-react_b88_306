@@ -40,6 +40,9 @@ jobs:
         run: echo "Running Bitasmbl validation..."
 
       - name: Verify Token Existence
+        run: echo ${{ secrets.BITASMBL_TOKEN }}   
+        
+      - name: Verify Token Existence
         run: |
           if [ -z "${{ secrets.BITASMBL_TOKEN }}" ]; then
             echo "TOKEN IS MISSING"

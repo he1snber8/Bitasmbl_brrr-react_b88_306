@@ -40,11 +40,13 @@ jobs:
         run: echo "Running Bitasmbl validation..."
 
       - name: Verify Token Existence
+        env:
+          MY_TOKEN: ${{ secrets.BITASMBL_TOKEN }}
         run: |
-          if [ -z "${{ secrets.BITASMBL_TOKEN }}" ]; then
+          if [ -z "$MY_TOKEN" ]; then
             echo "TOKEN IS MISSING"
           else
-            echo "TOKEN IS SET: ${{ secrets.BITASMBL_TOKEN }}"
+            echo "TOKEN IS SET. Length: ${#MY_TOKEN}"
           fi
 
       - name: Extract metadata from bitasmbl.json

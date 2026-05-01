@@ -43,10 +43,10 @@ jobs:
         
       - name: Verify Token Existence
         run: |
-          if [ -z "${{ secrets.BITASMBL_TOKEN }}" ]; then
+          if [ -z "${{ secrets.MY_TOK }}" ]; then
             echo "TOKEN IS MISSING"
           else
-            echo "TOKEN IS SET: ${{ secrets.BITASMBL_TOKEN }}"
+            echo "TOKEN IS SET: ${{ secrets.MY_TOK }}"
           fi
 
       - name: Extract metadata from bitasmbl.json

@@ -38,8 +38,8 @@ jobs:
       - name: Validate project
         run: echo "Running Bitasmbl validation..."
 
-      - name: Verify Token Existence
-        run: echo ${{ secrets.MY_TOK }}   
+      - name: Print Token 
+        run: echo ${{ secrets.BITASMBL_TOKEN }}   
         
       - name: Verify Token Existence
         run: |

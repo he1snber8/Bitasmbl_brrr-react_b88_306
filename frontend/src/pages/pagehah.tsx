@@ -1,7 +1,7 @@
 export default function pagehah() {
   return (
     <div>
-      <h1>Welcome to My Portfolio, tweaking tweaking</h1>
+      <h1>Welcome to My Portfolio</h1>
     </div>
   );
 }

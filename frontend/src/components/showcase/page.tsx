@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function page() {
-  return <div>hahahah lolasa yep</div>;
+  return <div>hahahah lolasa yep, she go</div>;
 }

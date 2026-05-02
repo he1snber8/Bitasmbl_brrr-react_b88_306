@@ -2,9 +2,19 @@
  * ❌ FAIL | Bitasmbl Evaluation Result
  * ============================================================
  * SCORE:             5/100
- * CRITICAL INSIGHT:   Main SPA layout and semantic, responsive sectioned structure are entirely unimplemented.
+ * CRITICAL INSIGHT:   Main SPA layout and sectioned, responsive, semantic structure are not implemented at all.
  * SUGGESTED LOCATION: frontend/src/pages/MainPage.tsx
  * ============================================================
+ */
+
+/**
+ * 📂 FEEDBACK: [BITASMBL] - Define portfolio layout
+ * ------------------------------[FAIL ❌]
+ * Create a MainPage SPA with header, main, and footer, and four sections: intro, skills, projects, and contact.
+ * Implement each section as its own reusable React component (e.g., IntroSection, SkillsSection, ProjectsSection, ContactSection).
+ * Use semantic <section> with unique ids and an accessible <nav> with anchor links and focus styles for keyboard users.
+ * Add responsive layout using CSS flexbox/grid with mobile, tablet, and desktop breakpoints; ensure readable stacking on small screens.
+ * Replace placeholder <h1> only content with structured JSX that composes the four section components in a main layout.
  */
 
 /**

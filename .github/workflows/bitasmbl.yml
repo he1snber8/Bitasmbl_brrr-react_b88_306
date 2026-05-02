@@ -68,7 +68,7 @@ jobs:
 
       - name: Send to backend
         run: |
-          curl -X POST https://5e82-176-221-143-53.ngrok-free.app/projects/evaluate-code-diff \
+          curl -X POST https://589f-176-221-143-53.ngrok-free.app/projects/evaluate-code-diff \
             -H "Content-Type: application/json" \
             -H "Authorization: Bearer ${{ secrets.BITASMBL_TOKEN }}" \
             -d @- <<EOF

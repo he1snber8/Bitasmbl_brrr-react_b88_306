@@ -1,7 +1,7 @@
 {
   "projectApplicationId": 306,
-  "requirementId": 805,
+  "requirementId": 806,
   "files": [
-    "frontend/src/pages/pagehah.tsx"
+    "frontend/src/components/showcase/page.tsx"
   ]
 }

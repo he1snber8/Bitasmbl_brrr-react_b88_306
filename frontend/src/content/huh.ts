@@ -3,4 +3,5 @@ export interface Huh {
   num: number;
   name: string;
   surname: string;
+  huh: string;
 }

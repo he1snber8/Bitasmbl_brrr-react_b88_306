@@ -3,5 +3,33 @@
   "requirementId": 808,
   "files": [
     "frontend/src/content/huh.ts"
-  ]
+  ],
+  "activityMeta": {
+    "file": "frontend/src/content/huh.ts",
+    "requirementName": "Add content configuration",
+    "event": "change",
+    "events": 11,
+    "timestamps": {
+      "firstModified": "2026-05-05T14:01:32.812Z",
+      "lastModified": "2026-05-06T10:38:33.434Z"
+    },
+    "activity": {
+      "activeDurationSec": 1438,
+      "idleBreaks": 4,
+      "avgIntervalSec": 6747
+    },
+    "diffStats": {
+      "linesAdded": 15,
+      "linesDeleted": 1,
+      "largeChangeEvents": 0
+    },
+    "patterns": {
+      "burstEdits": false,
+      "longPauseBeforeEdit": true
+    },
+    "sourceHints": {
+      "possiblePaste": false,
+      "suspiciousJump": false
+    }
+  }
 }

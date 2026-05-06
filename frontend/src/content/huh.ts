@@ -4,4 +4,6 @@ export interface Huh {
   name: string;
   surname: string;
   huh: string;
+  roma: string;
+  haha: string;
 }

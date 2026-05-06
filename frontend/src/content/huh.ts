@@ -6,4 +6,5 @@ export interface Huh {
   huh: string;
   roma: string;
   haha: string;
+  yep: string;
 }

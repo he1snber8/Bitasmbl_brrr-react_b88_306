@@ -1,7 +1,9 @@
 export default function pagehah() {
   return (
     <div>
-      <h1>Welcome to My Portfolio</h1>
+      helicoptar
+      <h2>counter</h2>
+      <h2>counter</h2>
     </div>
   );
 }
